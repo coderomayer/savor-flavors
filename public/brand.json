@@ -1,0 +1,33 @@
+[
+    {
+      "id": 1,
+      "brandName": "Delicious Delights",
+      "brandPicture": "https://example.com/delicious_delights.jpg"
+    },
+    {
+      "id": 2,
+      "brandName": "TasteTreats Co.",
+      "brandPicture": "https://example.com/tastetreats_co.jpg"
+    },
+    {
+      "id": 3,
+      "brandName": "Gourmet Elegance",
+      "brandPicture": "https://example.com/gourmet_elegance.jpg"
+    },
+    {
+      "id": 4,
+      "brandName": "Beverage Bliss",
+      "brandPicture": "https://example.com/beverage_bliss.jpg"
+    },
+    {
+      "id": 5,
+      "brandName": "Flavor Fusion",
+      "brandPicture": "https://example.com/flavor_fusion.jpg"
+    },
+    {
+      "id": 6,
+      "brandName": "Culinary Creations",
+      "brandPicture": "https://example.com/culinary_creations.jpg"
+    }
+  ]
+  
