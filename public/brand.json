@@ -1,33 +1,33 @@
 [
     {
       "id": 1,
-      "brandName": "Delicious Delights",
-      "brandPicture": "https://example.com/delicious_delights.jpg"
+      "brandName": "Nescafé",
+      "brandPicture": "https://images.unsplash.com/photo-1635875797356-7d29aa0dfa32?auto=format&fit=crop&q=80&w=3276&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     },
     {
       "id": 2,
-      "brandName": "TasteTreats Co.",
-      "brandPicture": "https://example.com/tastetreats_co.jpg"
+      "brandName": "Almarai",
+      "brandPicture": "https://www.logo.wine/a/logo/Almarai/Almarai-Logo.wine.svg"
     },
     {
       "id": 3,
-      "brandName": "Gourmet Elegance",
-      "brandPicture": "https://example.com/gourmet_elegance.jpg"
+      "brandName": "Gourmet",
+      "brandPicture": "https://images.unsplash.com/photo-1615306119247-67565da835da?auto=format&fit=crop&q=80&w=3174&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     },
     {
       "id": 4,
-      "brandName": "Beverage Bliss",
-      "brandPicture": "https://example.com/beverage_bliss.jpg"
+      "brandName": "Beverage ",
+      "brandPicture": "https://images.unsplash.com/photo-1486427944299-d1955d23e34d?auto=format&fit=crop&q=80&w=3270&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     },
     {
       "id": 5,
-      "brandName": "Flavor Fusion",
-      "brandPicture": "https://example.com/flavor_fusion.jpg"
+      "brandName": "Flavor",
+      "brandPicture": "https://images.unsplash.com/photo-1520251096133-9a1b83041b11?auto=format&fit=crop&q=80&w=3270&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     },
     {
       "id": 6,
-      "brandName": "Culinary Creations",
-      "brandPicture": "https://example.com/culinary_creations.jpg"
+      "brandName": "Culinary",
+      "brandPicture": "https://images.unsplash.com/photo-1520251096133-9a1b83041b11?auto=format&fit=crop&q=80&w=3270&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     }
   ]
   

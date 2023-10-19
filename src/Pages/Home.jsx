@@ -25,7 +25,22 @@ const Home = () => {
 
                     <button className="bg-white text-black px-4 py-2 rounded">Register Now</button>
                 </div>
+            </div>
 
+            {/* Brand Nams section */}
+
+            <div className="bg-amber-700 p-6 sm:p-24 grid md:grid-cols-3 gap-4">
+
+                {
+                    brandData.map(brand => {
+                        return (
+                            <div className="p-6 bg-white rounded-lg">
+                                <img className="rounded-lg h-48 w-full object-cover" src={brand.brandPicture} alt="" />
+                                <h2 className="text-4xl font-bold py-4 text-center">{brand.brandName}</h2>
+                            </div>
+                        )
+                    })
+                }
 
             </div>
 
