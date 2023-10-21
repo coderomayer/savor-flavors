@@ -6,6 +6,7 @@ import MyCard from "../Pages/My Card";
 import Login from "../Pages/Login";
 import BrandCard from "../components/Brand Card";
 import BrandProduct from "../Pages/Brand Product";
+import ProductDetails from "../Pages/product Details";
 
 const router = createBrowserRouter([
 
@@ -26,11 +27,13 @@ const router = createBrowserRouter([
         {
             path: 'add-product',
             element: <AddProduct></AddProduct>
+
         },
 
         {
             path: '/my-card',
-            element: <MyCard></MyCard>
+            element: <MyCard></MyCard>,
+            loader: () => fetch('http://localhost:5000/user-product')
         },
 
         {
@@ -47,6 +50,12 @@ const router = createBrowserRouter([
         {
             path: 'brand-product/:name',
             element: <BrandProduct></BrandProduct>,
+            loader: () => fetch(`http://localhost:5000/products`)
+        },
+
+        {
+            path: 'brand-product/:name/product-detail/:id',
+            element: <ProductDetails></ProductDetails>,
             loader: () => fetch(`http://localhost:5000/products`)
         }
 

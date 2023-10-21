@@ -1,11 +1,20 @@
+import { useLoaderData } from "react-router-dom";
+import ProductCard from "../components/product Card";
+
 const MyCard = () => {
 
-    return (
+    const userProduct = useLoaderData();
+    console.log(userProduct);
+    // const product = userProduct.map(product )
 
-        <div>
-            <h2>This is my Card</h2>
-        </div>
-    )
+return (
+    <div>
+        {
+            userProduct.map(product => <ProductCard key={product._id} product={product}></ProductCard>)
+        }
+    </div>
+)
+    
 }
 
 export default MyCard;
