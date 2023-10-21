@@ -1,9 +1,10 @@
 import { useLoaderData } from "react-router-dom";
+import BrandCard from "../components/Brand Card";
 
 const Home = () => {
 
     const brandData = useLoaderData()
-    console.log(brandData);
+    
 
     return (
 
@@ -32,14 +33,7 @@ const Home = () => {
             <div className="bg-amber-700 p-6 sm:p-24 grid md:grid-cols-3 gap-4">
 
                 {
-                    brandData.map(brand => {
-                        return (
-                            <div className="p-6 bg-white rounded-lg">
-                                <img className="rounded-lg h-48 w-full object-cover" src={brand.brandPicture} alt="" />
-                                <h2 className="text-4xl font-bold py-4 text-center">{brand.brandName}</h2>
-                            </div>
-                        )
-                    })
+                    brandData.map(brand => <BrandCard key={brand.id} brand={brand} ></BrandCard> )
                 }
 
             </div>
