@@ -1,4 +1,5 @@
 import { useLoaderData, useParams } from "react-router-dom";
+import swal from "sweetalert";
 
 const ProductDetails = () => {
     const brandPro = useLoaderData();
@@ -23,7 +24,7 @@ const ProductDetails = () => {
             console.log(data);
 
             if (data.insertedId) {
-                setAddProduct('Product aded succesfully')
+                swal("Thank You!", "Product aded Sucsesfully!", "success");
             }
         })
 

@@ -7,6 +7,9 @@ import Login from "../Pages/Login";
 import BrandCard from "../components/Brand Card";
 import BrandProduct from "../Pages/Brand Product";
 import ProductDetails from "../Pages/product Details";
+import Registraition from "../Pages/Registration";
+import UpdateProduct from "../Pages/Update Product";
+import PrivetRout from "./PrivetRout";
 
 const router = createBrowserRouter([
 
@@ -32,8 +35,13 @@ const router = createBrowserRouter([
 
         {
             path: '/my-card',
-            element: <MyCard></MyCard>,
+            element: <PrivetRout><MyCard></MyCard></PrivetRout>,
             loader: () => fetch('http://localhost:5000/user-product')
+        },
+
+        {
+            path: '/registration',
+            element: <Registraition></Registraition>
         },
 
         {
@@ -57,6 +65,12 @@ const router = createBrowserRouter([
             path: 'brand-product/:name/product-detail/:id',
             element: <ProductDetails></ProductDetails>,
             loader: () => fetch(`http://localhost:5000/products`)
+        },
+
+        {
+            path: '/usdate-product/:id',
+            element: <UpdateProduct></UpdateProduct>,
+            loader: ({params}) => fetch(`http://localhost:5000/products/${params.id}`)
         }
 
     ]

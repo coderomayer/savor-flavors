@@ -8,7 +8,8 @@ const MyCard = () => {
     // const product = userProduct.map(product )
 
 return (
-    <div>
+
+    <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4 p-8 sm:p-20">
         {
             userProduct.map(product => <ProductCard key={product._id} product={product}></ProductCard>)
         }
